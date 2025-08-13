@@ -1,0 +1,38 @@
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.card-content p{
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+body{
+    font-family: sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.card{
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: wheat;
+    box-shadow: 0 4px 12px rgba(0, 0, 0,0.1);
+    transition: transform 0.3s;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
