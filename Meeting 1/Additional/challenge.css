@@ -1,0 +1,9 @@
+.Intro{
+    border: 2px solid black;
+    border-radius: 5%;
+    padding-left: 15px;
+}
+
+.Hobby img{
+    border-radius: 10%;
+}

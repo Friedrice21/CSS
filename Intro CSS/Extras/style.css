@@ -1,0 +1,14 @@
+h1{
+    color: aqua;
+}
+/* new.html */
+p{
+    width: 50px;
+    background-color: blueviolet;
+}
+
+.card{
+    background-color: cyan;
+    padding: 10px;
+    border-radius: 3%;
+}
