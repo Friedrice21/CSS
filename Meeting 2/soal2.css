@@ -1,0 +1,40 @@
+.card img{
+    width: 100%;
+    display: block;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.card{
+    width: 250px;
+    border-radius: 20px;
+    padding: 30%;
+    overflow: visible;
+    background: orange;
+    border-radius: 100%;
+}
+
+.card-content{
+    padding: 5px;
+}
+
+.card-content h2{
+    margin: 0 0 0;
+    padding-left: 40px;
+}
+
+.card-content p{
+    margin: 0;
+    font-size: 13px;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+button{
+    border-color: black;
+    border-radius: 15px;
+}
+
+#blablabalh{
+    padding: 5px;
+}
