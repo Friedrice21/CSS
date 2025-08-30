@@ -1,0 +1,14 @@
+p {
+    color: orange;
+    background-color: cadetblue;
+}
+
+h1 {
+    font-size: 32px;
+     font-family: "Story Script"
+}
+
+@font-face{
+    font-family: "Story Script";
+    src: url('StoryScript-Regular.ttf');
+}
