@@ -1,0 +1,34 @@
+.profile{
+    border: 5px solid blue;
+    border-radius: 25px;
+    box-shadow: 7px 7px 14px;
+}
+
+.information{
+    display: flex;
+    padding-left: 10px;
+}
+
+.info {
+    margin-right: 50%;
+}
+
+.block {
+    border: 2px solid black;
+    display: block;
+}
+
+.inline {
+    border: 2px solid red;
+    display: inline;
+}
+
+.inline-block {
+    border: 2px solid blue;
+    display: inline-block;
+}
+
+.none {
+    border: 3px solid green;
+    display: none;
+}
