@@ -1,0 +1,53 @@
+.header {
+    border: 2px solid black;
+    border-radius: 20%;
+    box-shadow: 10px -5px red;
+    margin: 40px;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+
+.name {
+    text-align: center;
+}
+.subline {
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.store {
+    border: 2px solid #252422;
+    border-radius:10px;
+    box-shadow: 20px 10px #252422;
+    background-color: #1e332e33;
+    display: inline-block;
+}
+
+.Ferrari {
+    text-decoration: underline;
+    background-color: #c22e2e;
+}
+.Redbull {
+    text-decoration: underline;
+    background-color: #627ae7;
+    display: inline;
+}
+.Mclaren {
+    background-color: rgb(233, 193, 84);
+}
+
+.mcname {
+    text-decoration: underline;
+}
+
+.mcimg {
+    display: none;
+}
+
+.sign {
+    text-align: center;
+}
