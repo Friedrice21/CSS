@@ -1,0 +1,26 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.box {
+  background: lightblue;
+  padding: 20px;
+}
+
+.Items {
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background: coral;
+    text-align: center;
+}
