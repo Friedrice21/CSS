@@ -1,0 +1,43 @@
+.basic {
+    position: static;
+    height: 150px;
+    width: 150px;
+    background: lightpink;
+}
+
+.base {
+    position: relative;
+}
+
+.kotak1 {
+    height: 100px;
+    width: 100px;
+    background: lightgoldenrodyellow;
+    position: absolute;
+    text-align: center;
+    left: 40px;
+    top: 20px;
+}
+.kotak2 {
+    position: relative;
+    background: darkgoldenrod;
+    width: 100px;
+    height: 100px;
+    right: 35px;
+    bottom: 40px;
+    text-align: center;
+}
+.parent {
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+    position: relative;
+}
+.child {
+    height: 100px;
+    width: 100px;
+    background: orange;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
