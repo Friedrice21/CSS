@@ -1,0 +1,57 @@
+.page {
+    width: 50%;
+}
+
+.blob {
+    color: blue;
+    transition: color .2s ease, box-shadow .2s ease;
+}
+
+.blob:hover  {
+    color: orange;
+    text-decoration: underline;
+}
+
+.blob:active {
+    color: rgb(226, 222, 0);
+}
+
+.blob:visited {
+    color: rgb(46, 46, 14);
+}
+
+.blob:focus-visible {
+    outline: 3px solid cyan;
+    outline-offset: 2px;
+}
+
+.b {
+    background: wheat;
+     border: 2;
+     padding: .6rem 1rem;
+  border-radius: .6rem;
+  cursor: pointer;
+  transition: transform .08s ease, background .2s ease, box-shadow .2s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,.12);
+}
+
+.b:hover {
+    background: darkcyan;
+    transform: translateY(3px) translateX(2px);
+}
+
+.b:active {
+    transform: translateY(1px) scale(1);
+    box-shadow: 1 1px 4px black;
+}
+
+.b:focus-visible {
+    outline: 3px solid brown;
+    outline-offset: -1px;
+}
+
+.b:disabled {
+    background: blue;
+    cursor: not-allowed;
+    opacity: .9;
+}
