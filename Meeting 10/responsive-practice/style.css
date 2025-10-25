@@ -1,0 +1,28 @@
+/* Mobile First */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    body {
+        display: block;
+        padding: 15px;
+        gap: 5px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    body {
+        max-width: 1020px;
+        margin-top: auto;
+    }
+}

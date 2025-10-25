@@ -1,0 +1,28 @@
+/* Mobile screen */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 1rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Tablet */
+@media (min-width:768px) {
+    main {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    body {
+        max-width: 1000px;
+        margin: auto;
+    }
+}
