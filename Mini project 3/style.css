@@ -1,0 +1,39 @@
+.body {
+    border: 2px solid black;
+    background: beige;
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+nav {
+    margin-right: auto;
+}
+
+@media (min-width:768px) {
+    .body{
+        padding: auto;
+        gap: 5px;
+        width: 100%;
+        height: auto;
+        background: rgb(138, 138, 88);
+    }
+}
+
+@media (min-width:1024px) {
+   .body {
+        gap: 15px;
+        padding: 15px;
+        width: 100%;
+        height: auto;
+        background: rgb(114, 114, 80);
+    }
+    .recipe {
+        display: flex;
+    }
+}
