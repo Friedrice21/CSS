@@ -1,0 +1,65 @@
+:root {
+    --primary-color: #699580;
+    --secondary-color: #DEC430;
+    --text-color:#E5E2D0;
+    --radius: 2px solid black;
+    --spacing: 5rem
+    }
+
+    .archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 200;
+  font-style: light;
+}
+
+
+    .card {
+        background: var(--primary-color);
+        border: var(--radius);
+        height: 100%;
+        width: 400px;
+        text-align: center;
+        max-width: 100%;
+        padding: 1.8rem;
+    }
+
+    .name {
+        text-decoration: underline;
+        text-transform: capitalize;
+    }
+
+    img {
+        width: 350px;
+        border-radius: 1000px;
+        border: 2px solid black;
+    }
+
+    .desc {
+        color: var(--text-color);
+        border:  1px dashed black;
+        font-size: 1.3rem;
+    }
+
+.button button {
+    padding: 1em;
+    background: #DC9750;
+    color: #515E60;
+}
+
+/* tablet */
+@media (min-width: 768px){
+    .card{
+        font-size: medium;
+        width: 768px;
+        height: 100%;
+    }
+}
+
+/* laptop */
+@media (min-width:1024px){
+    .card {
+        display: grid;
+        width: 1024px;
+        height: 1000px;
+    }
+}
