@@ -1,0 +1,78 @@
+img {
+    height: 250px;
+    padding: auto;
+}
+
+.product {
+    text-align: center;
+    display: grid;
+}
+
+.tinos-regular {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tinos-bold {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: normal;
+ 
+}
+
+.tinos-regular-italic {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.tinos-bold-italic {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+h1, h2 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkolivegreen;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 15px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: beige;
+}
+
+@media (min-width: 768px) {
+    .product {
+        width: 768px;
+        height: 100%;
+    }
+}
+
+@media (1024px) {
+    .product {
+        display: flex;
+        width: 1024px;
+        height: 1000px;
+    }
+}
