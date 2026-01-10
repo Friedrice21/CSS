@@ -1,0 +1,46 @@
+img {
+    height: 200px;
+    width: 250px;
+    padding: 9%;
+    margin-left: 35px;
+}
+
+.product1 {
+    display: flex;
+    margin: 5%;
+    padding-left: 200px;
+}
+
+.product2 {
+    display: flex;
+    padding-left: 200px;
+    margin: 5%;
+}
+
+h2 {
+    text-align: center;
+    margin-left: 80px;
+}
+
+.header {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+ul li {
+    float: right;
+}
+
+ul li a {
+    background-color: brown;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 3px 14px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: rgb(98, 143, 97);
+}

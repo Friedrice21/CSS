@@ -1,0 +1,44 @@
+img {
+    height: 300px;
+    width: 450px;
+}
+
+.crv {
+    display: flex;
+}
+
+.head {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(68, 67, 67);
+}
+
+ul li {
+    float: right;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 3px 14px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: beige;
+}
+
+.button {
+    display: flex;
+}
+
+.prev {
+    margin-right: 90%;
+}
