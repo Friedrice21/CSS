@@ -6,8 +6,11 @@ img {
 .forum {
     border: 1px solid black;
     padding: 19px;
-    margin-left: 20px;
+    margin-left: 450px;
     width: 200px;
+    display: flex;
+    justify-content: center;
+    gap:20px
 }
 
 .form {
@@ -58,4 +61,10 @@ ul li a {
 
 ul li a:hover {
     background-color: beige;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
